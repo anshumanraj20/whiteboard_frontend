@@ -1,0 +1,56 @@
+.container {
+  padding: 5%;
+ width: 100vw;
+
+ box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.createBtn {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.canvas {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.canvas button:first-child {
+  width: 40vw;
+  height: 8vh;
+  font-size: 1.1rem;
+  background-color: lightcoral;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.canvas button:not(:first-child) {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+}
+
+.canvas button:nth-child(3) {
+  background-color: #9c27b0;
+}

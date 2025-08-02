@@ -1,0 +1,40 @@
+.form{
+
+    display:flex;
+  
+    flex-direction: column;
+   align-items: center;
+   width: 50%;
+    
+}
+
+.form input{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 40%;
+    height:2rem;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 0.5rem;
+}
+
+.form input:last-child {
+    background-color: blueviolet;
+}
+
+.heading{
+    
+    text-decoration: underline;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container{
+    padding-top: 10%;
+  width:100vw;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
